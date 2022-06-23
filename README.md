@@ -6,10 +6,15 @@
 
 ### Poster
 1、ATPFL: Automatic Trajectory Prediction Model Design Under Federated Learning Framework 
+
 2、Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage
+
 3、CD2-pFed: Cyclic Distillation-Guided Channel Decoupling for Model Personalization in Federated Learning
+
 4、Closing the Generalization Gap of Cross-Silo Federated Medical Image Segmentation
+
 5、Differentially Private Federated Learning With Local Regularization and Sparsification
+
 6、FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
 7、FedCorr: Multi-Stage Federated Learning for Label Noise Correction
 8、FedDC: Federated Learning With Non-IID Data via Local Drift Decoupling and Correction
