@@ -16,14 +16,25 @@
 5、Differentially Private Federated Learning With Local Regularization and Sparsification
 
 6、FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
+
 7、FedCorr: Multi-Stage Federated Learning for Label Noise Correction
+
 8、FedDC: Federated Learning With Non-IID Data via Local Drift Decoupling and Correction
+
 9、Federated Class-Incremental Learning
+
 10、Federated Learning With Position-Aware Neurons
+
 11、Fine-Tuning Global Model via Data-Free Knowledge Distillation for Non-IID Federated Learning
+
 12、Layer-Wised Model Aggregation for Personalized Federated Learning
+
 13、Learn From Others and Be Yourself in Heterogeneous Federated Learning
+
 14、ResSFL: A Resistance Transfer Framework for Defending Model Inversion Attack in Split Federated Learning
+
 15、Rethinking Architecture Design for Tackling Data Heterogeneity in Federated Learning
+
 16、Robust Federated Learning With Noisy and Heterogeneous Clients
+
 17、RSCFed: Random Sampling Consensus Federated Semi-Supervised Learning
