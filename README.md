@@ -3,6 +3,8 @@
 ## CVPR2022
 ### Oral
 1、Local Learning Matters: Rethinking Data Heterogeneity in Federated Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_title.PNG)
+
 #### 文章总结
 联邦学习客户端之间数据异质性问题，导致客户端模型偏离理想的全局优化点并过度拟合到局部目标。直截了当的通过缩减局部训练轮次确实可以有效改善（原因是局部梯度减小，FedAVG当局部轮次为1时优化公式与数据集中式严格一致），但是严重阻碍收敛速度导致巨大收敛时间和通信开销。通过增加近端项（proximal terms）限制相对于全局模型的局部更新，虽然有效抑制了漂移但是也限制了局部收敛的潜力，同时减少了每轮通信所能收集的信息。
 
