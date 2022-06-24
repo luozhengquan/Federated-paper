@@ -5,6 +5,8 @@
 1、Local Learning Matters: Rethinking Data Heterogeneity in Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_title.PNG)
 
+[code](https://github.com/mmendiet/FedAlign)
+
 #### 文章总结
 联邦学习客户端之间数据异质性问题，导致客户端模型偏离理想的全局优化点并过度拟合到局部目标。直截了当的通过缩减局部训练轮次确实可以有效改善（原因是局部梯度减小，FedAVG当局部轮次为1时优化公式与数据集中式严格一致），但是严重阻碍收敛速度导致巨大收敛时间和通信开销。通过增加近端项（proximal terms）限制相对于全局模型的局部更新，虽然有效抑制了漂移但是也限制了局部收敛的潜力，同时减少了每轮通信所能收集的信息。
 
@@ -52,7 +54,7 @@ FedAlign与传统的 FL 算法的关键区别在于，新的修正项促使本�
 
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_performance.PNG)
 
-#### 内在逻辑梳理
+#### 个人观点（仅供参考）
 
 联邦学习数据端分布异质性问题->表象原因在于客户端模型优化方向不一致。
 
@@ -71,10 +73,26 @@ FedProx，MOON通过引入近端项抑制局部优化方向不偏离全局优化
 1、ATPFL: Automatic Trajectory Prediction Model Design Under Federated Learning Framework 
 
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22ATPFL_title.PNG)
+
 #### 文章总结
-作者通过分析和总结现有工作来构建有效的轨迹预测搜索空间，根据其特点设计了一种关系序列感知的搜索策略，实现了TP模型的自动设计，并通过合适的联合训练方法成功将联邦学习应用于轨迹预测（TP），通过充分利用具有丰富实际场景的分布式多源数据集来学习更强大的TP模型，实验结果表明ATPFL比单源数据集上训练的 TP 模型可以取得更好的结果。
+作者通过分析和总结现有工作，通过总结TP模型的设计过程，收集了每个步骤的可用操作，并通过分析现有的 TP 工作确定了每个操作的局限性。将上述经验和知识整合到关系图中，从而为 TP 区域构建有效的搜索空间。此外，考虑到复杂的约束关系，操作之间的时间关系和技术连接作者设计了一种关系序列感知的搜索策略，该策略可以利用构建的关系图、图神经网络（GNN）结合递归神经网络（RNN）来学习所选操作序列的高级特征，从而为后续步骤的设计提供有效参考，实现了TP模型的自动设计，并通过合适的联合训练方法成功将联邦学习应用于轨迹预测（TP），通过充分利用具有丰富实际场景的分布式多源数据集来学习更强大的TP模型，实验结果表明ATPFL比单源数据集上训练的 TP 模型可以取得更好的结果。
+
+#### 个人观点（仅供参考）
+AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
+
+
 
 2、Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage
+
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22APTFL_title.PNG)
+
+#### 文章总结
+作者提出了一种新的FL隐私泄露，即生成梯度泄漏（GGL）泄漏。方法利用从公共图像数据集中学习的生成对抗网络（GAN）的潜在空间作为先验来补偿梯度退化期间的信息损失。以对利用抗梯度信息退化进行FL隐私保护的防御机制，例如交互之前使用加性噪声或梯度压缩。
+
+[Code](https://github.com/zhuohangli/GGL)
+
+#### 个人观点（仅供参考）
+
 
 3、CD2-pFed: Cyclic Distillation-Guided Channel Decoupling for Model Personalization in Federated Learning
 
