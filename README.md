@@ -70,6 +70,10 @@ FedProx，MOON通过引入近端项抑制局部优化方向不偏离全局优化
 ### Poster
 1、ATPFL: Automatic Trajectory Prediction Model Design Under Federated Learning Framework 
 
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22ATPFL_title.PNG)
+#### 文章总结
+作者通过分析和总结现有工作来构建有效的轨迹预测搜索空间，根据其特点设计了一种关系序列感知的搜索策略，实现了TP模型的自动设计，并通过合适的联合训练方法成功将联邦学习应用于轨迹预测（TP），通过充分利用具有丰富实际场景的分布式多源数据集来学习更强大的TP模型，实验结果表明ATPFL比单源数据集上训练的 TP 模型可以取得更好的结果。
+
 2、Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage
 
 3、CD2-pFed: Cyclic Distillation-Guided Channel Decoupling for Model Personalization in Federated Learning
