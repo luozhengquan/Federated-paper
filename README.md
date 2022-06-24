@@ -97,32 +97,47 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 
 
 
-3、CD^2-pFed: Cyclic Distillation-Guided Channel Decoupling for Model Personalization in Federated Learning
+## 3、CD^2-pFed: Cyclic Distillation-Guided Channel Decoupling for Model Personalization in Federated Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22cd2-pfed_title.PNG)
 
-4、Closing the Generalization Gap of Cross-Silo Federated Medical Image Segmentation
+## 4、Closing the Generalization Gap of Cross-Silo Federated Medical Image Segmentation
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22CGG_title.PNG)
 
-5、Differentially Private Federated Learning With Local Regularization and Sparsification
+## 5、Differentially Private Federated Learning With Local Regularization and Sparsification
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22DPFLLRS_title.PNG)
 
-6、FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
+## 6、FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedCor_title.PNG)
 
-7、FedCorr: Multi-Stage Federated Learning for Label Noise Correction
+## 7、FedCorr: Multi-Stage Federated Learning for Label Noise Correction
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedCorr_title.PNG)
 
-8、FedDC: Federated Learning With Non-IID Data via Local Drift Decoupling and Correction
+## 8、FedDC: Federated Learning With Non-IID Data via Local Drift Decoupling and Correction
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedDC_title.PNG)
 
-9、Federated Class-Incremental Learning
+## 9、Federated Class-Incremental Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FCIL_title.PNG)
 
-10、Federated Learning With Position-Aware Neurons
+## 10、Federated Learning With Position-Aware Neurons
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FLPAN_title.PNG)
 
-11、Fine-Tuning Global Model via Data-Free Knowledge Distillation for Non-IID Federated Learning
+## 11、Fine-Tuning Global Model via Data-Free Knowledge Distillation for Non-IID Federated Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22ftgm_title.PNG)
 
-12、Layer-Wised Model Aggregation for Personalized Federated Learning
+## 12、Layer-Wised Model Aggregation for Personalized Federated Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22LMAPFL_title.PNG)
 
-13、Learn From Others and Be Yourself in Heterogeneous Federated Learning
+## 13、Learn From Others and Be Yourself in Heterogeneous Federated Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FCCL_title.PNG)
 
-14、ResSFL: A Resistance Transfer Framework for Defending Model Inversion Attack in Split Federated Learning
+## 14、ResSFL: A Resistance Transfer Framework for Defending Model Inversion Attack in Split Federated Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22ResSFL_title.PNG)
 
-15、Rethinking Architecture Design for Tackling Data Heterogeneity in Federated Learning
+## 15、Rethinking Architecture Design for Tackling Data Heterogeneity in Federated Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RADFL_title.PNG)
 
-16、Robust Federated Learning With Noisy and Heterogeneous Clients
+## 16、Robust Federated Learning With Noisy and Heterogeneous Clients
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RFL_title.PNG)
 
-17、RSCFed: Random Sampling Consensus Federated Semi-Supervised Learning
+## 17、RSCFed: Random Sampling Consensus Federated Semi-Supervised Learning
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RSCFed_title.PNG)
