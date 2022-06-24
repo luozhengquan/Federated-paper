@@ -30,7 +30,24 @@ C、客户数量增加或者每轮训练仅采样部分客户进行优化，标�
 
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_framework.PNG)
 
+算法流程：
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_algorithm.PNG)
 
+Objective：
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_Objective.PNG)
+
+关键原则：
+
+A、在内部对网络块的Liptschitz常数进行了正则化以促进模型内的平滑优化和一致性。
+
+B、重用整个网络的中间特征作为最终块的输入以减小宽度，从而显着减少计算量。
+
+FedAlign与传统的 FL 算法的关键区别在于，新的修正项促使本地客户端模型根据自己的数据学习良好的泛化表示，而不是强制本地模型接近全局模型。
+
+实验效果：
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_performance.PNG)
+
+#### 内在逻辑梳理
 
 
 ### Poster
