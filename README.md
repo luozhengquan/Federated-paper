@@ -6,6 +6,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#CVPR2022">CVPR2022</a></li>
+    <li><a href="#ICML2022">ICML2022</a></li>
   </ol>
 </details>
 
@@ -152,3 +153,8 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 
 ## 17、RSCFed: Random Sampling Consensus Federated Semi-Supervised Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RSCFed_title.PNG)
+
+
+
+
+## ICML2022
