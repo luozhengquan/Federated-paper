@@ -25,7 +25,10 @@ B、随着局部训练轮次增加，近端项方法遭遇了性能瓶颈，模�
 C、客户数量增加或者每轮训练仅采样部分客户进行优化，标准正则化方法在所有设置中都比 FedAvg 保持更好的准确性。
 
 #### FedAlign
+
 网络结构
+
+![Image text](https://github.com/luozhengquan/Federated-paper/tree/main/image/CVPR22Local Learning Matters Rethinking Data Heterogeneity in Federated Learning framework.PNG)
 
 
 
