@@ -26,7 +26,7 @@ C、客户数量增加或者每轮训练仅采样部分客户进行优化，标�
 
 #### FedAlign
 
-网络结构
+网络结构:
 
 ![Image text](https://github.com/luozhengquan/Federated-paper/tree/main/image/CVPR22FedAlign_framework.PNG)
 
