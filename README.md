@@ -5,7 +5,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#CVPR2022">Usage</a></li>
+    <li><a href="#CVPR2022">CVPR2022</a></li>
   </ol>
 </details>
 
