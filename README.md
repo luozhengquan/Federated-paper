@@ -2,7 +2,7 @@
 （简单梳理不一定全，个人理解不一定准。仅供参考欢迎交流）
 ## CVPR2022
 ### Oral
-1、Local Learning Matters: Rethinking Data Heterogeneity in Federated Learning
+## 1、Local Learning Matters: Rethinking Data Heterogeneity in Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_title.PNG)
 
 [code](https://github.com/mmendiet/FedAlign)
@@ -70,7 +70,7 @@ FedProx，MOON通过引入近端项抑制局部优化方向不偏离全局优化
 
 
 ### Poster
-1、ATPFL: Automatic Trajectory Prediction Model Design Under Federated Learning Framework 
+## 1、ATPFL: Automatic Trajectory Prediction Model Design Under Federated Learning Framework 
 
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22ATPFL_title.PNG)
 
@@ -82,7 +82,7 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 
 
 
-2、Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage
+## 2、Auditing Privacy Defenses in Federated Learning via Generative Gradient Leakage
 
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22APTFL_title.PNG)
 
