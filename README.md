@@ -87,11 +87,14 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22APTFL_title.PNG)
 
 #### 文章总结
-作者提出了一种新的FL隐私泄露，即生成梯度泄漏（GGL）泄漏。方法利用从公共图像数据集中学习的生成对抗网络（GAN）的潜在空间作为先验来补偿梯度退化期间的信息损失。以对利用抗梯度信息退化进行FL隐私保护的防御机制，例如交互之前使用加性噪声或梯度压缩。
+作者提出了一种新的FL隐私泄露，即生成梯度泄漏（GGL）泄漏。方法利用从公共图像数据集中学习的生成对抗网络（GAN）的潜在空间作为先验来补偿梯度退化期间的信息损失。以对利用抗梯度信息退化进行FL隐私保护的防御机制，例如交互之前使用加性噪声或梯度压缩。本文实验性的说明了即使在某些防御设置下，从共享梯度中恢复高保真图像仍然是可行的。大型公共图像数据集学习的生成对抗网络 (GAN)的流形作为先验信息，提供了对自然图像空间的良好逼近。通过最小化 GAN 图像流形中的梯度匹配损失，该方法可以找到与客户的高质量私人训练数据高度相似的图像。
+
 
 [Code](https://github.com/zhuohangli/GGL)
 
 #### 个人观点（仅供参考）
+针对使用梯度退化防御的FL进行隐私泄露攻击，本质就是建模梯度退化的求逆过程。
+
 
 
 3、CD2-pFed: Cyclic Distillation-Guided Channel Decoupling for Model Personalization in Federated Learning
