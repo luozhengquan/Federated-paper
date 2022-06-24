@@ -31,9 +31,11 @@ C、客户数量增加或者每轮训练仅采样部分客户进行优化，标�
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_framework.PNG)
 
 算法流程：
+
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_algorithm.PNG)
 
 Objective：
+
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_Objective.PNG)
 
 关键原则：
@@ -45,9 +47,22 @@ B、重用整个网络的中间特征作为最终块的输入以减小宽度，�
 FedAlign与传统的 FL 算法的关键区别在于，新的修正项促使本地客户端模型根据自己的数据学习良好的泛化表示，而不是强制本地模型接近全局模型。
 
 实验效果：
+
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedAlign_performance.PNG)
 
 #### 内在逻辑梳理
+
+联邦学习数据端分布异质性问题->表象原因在于客户端模型优化方向不一致。
+
+FedProx，MOON通过引入近端项抑制局部优化方向不偏离全局优化，但是带来了大量的计算开销和局部优化限制。
+
+作者对于问题关键理解在于FL需要的是模型泛化性能提升，从而使得局部优化和全局优化从本质上得以靠近。
+
+为此，作者通过引入top Hessian特征值，Hessian trace和跨客户端Hessians的范数和方向匹配等评价指标，评估网络泛化能力。大量实验表明（结构）正则化方法相比于近端项在泛化性上更有优势。
+
+从而结合GradAug方法提出FedAlgin，并针对联邦计算场景下边缘设备资源有限的问题进行了计算量优化。
+
+（核心：从近端项强制收束局部全局模型优化，转变为更好的本地模型泛化性）
 
 
 ### Poster
