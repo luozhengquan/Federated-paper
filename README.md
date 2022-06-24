@@ -77,7 +77,6 @@ FedProx，MOON通过引入近端项抑制局部优化方向不偏离全局优化
 #### 文章总结
 作者通过分析和总结现有工作，通过总结TP模型的设计过程，收集了每个步骤的可用操作，并通过分析现有的 TP 工作确定了每个操作的局限性。将上述经验和知识整合到关系图中，从而为 TP 区域构建有效的搜索空间。此外，考虑到复杂的约束关系，操作之间的时间关系和技术连接作者设计了一种关系序列感知的搜索策略，该策略可以利用构建的关系图、图神经网络（GNN）结合递归神经网络（RNN）来学习所选操作序列的高级特征，从而为后续步骤的设计提供有效参考，实现了TP模型的自动设计，并通过合适的联合训练方法成功将联邦学习应用于轨迹预测（TP），通过充分利用具有丰富实际场景的分布式多源数据集来学习更强大的TP模型，实验结果表明ATPFL比单源数据集上训练的 TP 模型可以取得更好的结果。
 
-#### 个人观点（仅供参考）
 AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 
 
@@ -92,8 +91,6 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 
 [Code](https://github.com/zhuohangli/GGL)
 
-#### 个人观点（仅供参考）
-针对使用梯度退化防御的FL进行隐私泄露攻击，本质就是建模梯度退化的求逆过程。
 
 
 
@@ -105,12 +102,17 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 
 ## 5、Differentially Private Federated Learning With Local Regularization and Sparsification
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22DPFLLRS_title.PNG)
+#### 文章总结
+
+用户级差分隐私 (DP)用于FL隐私保证是以严重降低精度为代价的，现有DP方法主要建立在基于高斯噪声扰动机制之上，具体来说，高斯机制需要将局部更新的l2 幅值限制到灵敏度阈值 S，并将与 S 成比例的噪声添加到高维局部更新中，这两个操作会导致较大的偏差（当 S 较小时）或较大的方差（当 S 较大时），从而减慢收敛速度并损害全局模型的性能。为此，作者提出了两种技术：有界局部更新正则化和局部更新稀疏化，以在不牺牲隐私的情况下提高模型质量。动机是在裁剪之前自然地减少局部更新的 l2 范数，从而使局部更新更适应裁剪操作，其中有界局部更新正则化（BLUR）为局部目标函数引入了一个正则化项，并明确地将局部更新的 l2 范数规范化为有界。局部更新稀疏化（LUS）将一些对局部模型性能影响不大的更新值归零，从而在不损害局部模型精度的情况下进一步降低局部更新的范数。作者对框架的收敛性进行了理论分析，并给出了严格的隐私保证，同时通过大量实验表明该框架显着改善了隐私效用权衡。
 
 ## 6、FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedCor_title.PNG)
 
 ## 7、FedCorr: Multi-Stage Federated Learning for Label Noise Correction
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedCorr_title.PNG)
+#### 文章总结
+
 
 ## 8、FedDC: Federated Learning With Non-IID Data via Local Drift Decoupling and Correction
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedDC_title.PNG)
