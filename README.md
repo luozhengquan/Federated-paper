@@ -1,5 +1,14 @@
 # 最新联邦学习论文梳理
 （简单梳理不一定全，个人理解不一定准。仅供参考欢迎交流）
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#CVPR2022">Usage</a></li>
+  </ol>
+</details>
+
 ## CVPR2022
 ### Oral
 ## 1、Local Learning Matters: Rethinking Data Heterogeneity in Federated Learning
