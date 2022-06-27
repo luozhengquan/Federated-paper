@@ -107,6 +107,9 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 ## 3、CD^2-pFed: Cyclic Distillation-Guided Channel Decoupling for Model Personalization in Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22cd2-pfed_title.PNG)
 
+#### 文章总结
+个性化 FL方案以解决联邦异质性问题，
+
 ## 4、Closing the Generalization Gap of Cross-Silo Federated Medical Image Segmentation
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22CGG_title.PNG)
 
