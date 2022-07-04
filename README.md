@@ -7,6 +7,8 @@
   <ol>
     <li><a href="#CVPR2022">CVPR2022</a></li>
     <li><a href="#ICML2022">ICML2022</a></li>
+    <li><a href="#ICLR2022">ICLR2022</a></li>
+    <li><a href="#AAAI2022">AAAI2022</a></li>
   </ol>
 </details>
 
