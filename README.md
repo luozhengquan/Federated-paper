@@ -202,3 +202,57 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 ## 32、Fishing for User Data in Large-Batch Federated Learning via Gradient Magnification
 ## 33、The Poisson Binomial Mechanism for Unbiased Federated Learning with Secure Aggregation
 ## 34、ProxSkip: A Simple and Provably Effective Communication-Acceleration Technique for Federated Learning
+
+
+## ICLR2022
+### Oral
+## 1、Minibatch vs Local SGD with Shuffling: Tight Convergence Bounds and Beyond 
+
+### Spotlight
+## 1、On Bridging Generic and Personalized Federated Learning for Image Classification 
+## 2、Hybrid Local SGD for Federated Learning with Heterogeneous Communications 
+## 3、Improving Federated Learning Face Recognition via Privacy-Agnostic Clusters 
+
+### Poster 
+## 1、FedBABU: Toward Enhanced Representation for Federated Image Classification 
+## 2、What Do We Mean by Generalization in Federated Learning? 
+## 3、Towards Model Agnostic Federated Learning Using Knowledge Distillation 
+## 4、Divergence-aware Federated Self-Supervised Learning 
+## 5、An Agnostic Approach to Federated Learning with Class Imbalance 
+## 6、Recycling Model Updates in Federated Learning: Are Gradient Subspaces Low-Rank? 
+## 7、Diverse Client Selection for Federated Learning via Submodular Maximization 
+## 8、ZeroFL: Efficient On-Device Training for Federated Learning with Local Sparsity 
+## 9、Diurnal or Nocturnal? Federated Learning of Multi-branch Networks from Periodically Shifting Distributions 
+## 10、Robbing the Fed: Directly Obtaining Private Data in Federated Learning with Modified Models 
+## 11、Efficient Split-Mix Federated Learning for On-Demand and In-Situ Customization 
+## 12、Acceleration of Federated Learning with Alleviated Forgetting in Local Training 
+## 13、FedPara: Low-rank Hadamard Product for Communication-Efficient Federated Learning 
+## 14、FedChain: Chained Algorithms for Near-optimal Communication Cost in Federated Learning 
+## 15、Bayesian Framework for Gradient Leakage 
+## 16、Federated Learning from Only Unlabeled Data with Class-conditional-sharing Clients 
+
+## AAAI2022
+## 1、HarmoFL: Harmonizing Local and Global Drifts in Federated Learning on Heterogeneous Medical Images
+## 2、Cross-Modal Federated Human Activity Recognition via Modality-Agnostic and Modality-Specific Representation Learning
+## 3、Federated Learning for Face Recognition with Gradient Correction
+## 4、SpreadGNN: Decentralized Multi-Task Federated Learning for Graph Neural Networks on Molecular Data
+## 5、SmartIdx: Reducing Communication Cost in Federated Learning by Exploiting the CNNs Structures
+## 6、Is Your Data Relevant?: Dynamic Selection of Relevant Data for Federated Learning
+## 7、Critical Learning Periods in Federated Learning
+## 8、Coordinating Momenta for Cross-silo Federated Learning
+## 9、FedProto: Federated Prototype Learning across Heterogeneous Clients
+## 10、FedInv : Byzantine-robust Federated Learning by Inversing Local Model Updates
+## 11、FedSoft: Soft Clustered Federated Learning with Proximal Local Updating
+## 12、Federated Dynamic Sparse Training: Computing Less, Communicating Less, Yet Learning Better
+## 13、FedFR: Joint Optimization Federated Framework for Generic and Personalized Face Recognition
+## 14、SplitFed: When Federated Learning Meets Split Learning
+## 15、Efficient Device Scheduling with Multi-Job Federated Learning
+## 16、Implicit Gradient Alignment in Distributed and Federated Learning
+## 17、Learning Advanced Client Selection Strategy for Federated Learning
+## 18、Federated Nearest Neighbor Classification with a Colony of Fruit-Flies: With Supplement
+## 19、Preserving Privacy in Federated Learning with Ensemble Cross-Domain Knowledge Distillation
+## 20、CrowdFL : A Marketplace for Crowdsourced Federated Learning
+## 21、Contribution-Aware Federated Learning for Smart Healthcare
+## 22、Threats to Federated Learning
+## 23、Asynchronous Federated Optimization
+## 24、Preservation of Global Knowledge by Not-True Distillation in Federated Learning
