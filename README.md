@@ -162,43 +162,43 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 
 ## ICML2022
 ### Oral
-## Anarchic Federated Learning
-## FEDNEST: Federated Bilevel Optimization
-## The Poisson Binomial Mechanism for Unbiased Federated Learning with Secure Aggregation
-## Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis
+## 1、Anarchic Federated Learning
+## 2、FEDNEST: Federated Bilevel Optimization
+## 3、The Poisson Binomial Mechanism for Unbiased Federated Learning with Secure Aggregation
+## 4、Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis
 
 ### Spotlight
-## QSFL: A Two-Level Uplink Communication Optimization Framework for Federated Learning
-## Bitwidth Heterogeneous Federated Learning with Progressive Weight Dequantization
-## Multi-Level Branched Regularization for Federated Learning
-## Personalized Federated Learning via Variational Bayesian Inference
-## Disentangled Federated Learning for Tackling Attributes Skew via Invariant Aggregation and Diversity Transferring
-## Neurotoxin: Durable Backdoors in Federated Learning
-## ProgFed: Effective, Communication, and Computation Efficient Federated Learning by Progressive Training
-## FLPerf: A Comprehensive Benchmark for Federated Learning at Scale
-## Federated Learning with Positive and Unlabeled Data
-## Orchestra: Unsupervised Federated Learning via Globally Consistent Clustering
-## Federated Minimax Optimization: Improved Convergence Analyses and Algorithms
-## Proximal and Federated Random Reshuffling
-## Deep Neural Network Fusion via Graph Matching with Applications to Model Ensemble and Federated Learning
-## FedNL: Making Newton-Type Methods Applicable to Federated Learning
-## Fast Composite Optimization and Statistical Recovery in Federated Learning
-## EDEN: Communication-Efficient and Robust Distributed Mean Estimation for Federated Learning
-## Understanding Clipping for Federated Learning: Convergence and Client-Level Differential Privacy
-## DAdaQuant: Doubly-adaptive quantization for communication-efficient Federated Learning
-## Federated Learning with Label Distribution Skew via Logits Calibration
-## FedNew: A Communication-Efficient and Privacy-Preserving Newton-Type Method for Federated Learning
-## Generalized Federated Learning via Sharpness Aware Minimization
-## Federated Learning with Partial Model Personalization
-## The Fundamental Price of Secure Aggregation in Differentially Private Federated Learning
-## DisPFL: Towards Communication-Efficient Personalized Federated learning via Decentralized Sparse Training
-## Personalized Federated Learning through Local Memorization
-## Resilient and Communication Efficient Learning for Heterogeneous Federated Systems
-## Architecture Agnostic Federated Learning for Neural Networks
-## Personalization Improves Privacy-Accuracy Tradeoffs in Federated Optimization
-## Neural Tangent Kernel Empowered Federated Learning
-## Accelerated Federated Learning with Decoupled Adaptive Optimization
-## Communication-Efficient Adaptive Federated Learning
-## Fishing for User Data in Large-Batch Federated Learning via Gradient Magnification
-## The Poisson Binomial Mechanism for Unbiased Federated Learning with Secure Aggregation
-## ProxSkip: A Simple and Provably Effective Communication-Acceleration Technique for Federated Learning
+## 1、QSFL: A Two-Level Uplink Communication Optimization Framework for Federated Learning
+## 2、Bitwidth Heterogeneous Federated Learning with Progressive Weight Dequantization
+## 3、Multi-Level Branched Regularization for Federated Learning
+## 4、Personalized Federated Learning via Variational Bayesian Inference
+## 5、Disentangled Federated Learning for Tackling Attributes Skew via Invariant Aggregation and Diversity Transferring
+## 6、Neurotoxin: Durable Backdoors in Federated Learning
+## 7、ProgFed: Effective, Communication, and Computation Efficient Federated Learning by Progressive Training
+## 8、FLPerf: A Comprehensive Benchmark for Federated Learning at Scale
+## 9、Federated Learning with Positive and Unlabeled Data
+## 10、Orchestra: Unsupervised Federated Learning via Globally Consistent Clustering
+## 11、Federated Minimax Optimization: Improved Convergence Analyses and Algorithms
+## 12、Proximal and Federated Random Reshuffling
+## 13、Deep Neural Network Fusion via Graph Matching with Applications to Model Ensemble and Federated Learning
+## 14、FedNL: Making Newton-Type Methods Applicable to Federated Learning
+## 15、Fast Composite Optimization and Statistical Recovery in Federated Learning
+## 16、EDEN: Communication-Efficient and Robust Distributed Mean Estimation for Federated Learning
+## 17、Understanding Clipping for Federated Learning: Convergence and Client-Level Differential Privacy
+## 18、DAdaQuant: Doubly-adaptive quantization for communication-efficient Federated Learning
+## 19、Federated Learning with Label Distribution Skew via Logits Calibration
+## 20、FedNew: A Communication-Efficient and Privacy-Preserving Newton-Type Method for Federated Learning
+## 21、Generalized Federated Learning via Sharpness Aware Minimization
+## 22、Federated Learning with Partial Model Personalization
+## 23、The Fundamental Price of Secure Aggregation in Differentially Private Federated Learning
+## 24、DisPFL: Towards Communication-Efficient Personalized Federated learning via Decentralized Sparse Training
+## 25、Personalized Federated Learning through Local Memorization
+## 26、Resilient and Communication Efficient Learning for Heterogeneous Federated Systems
+## 27、Architecture Agnostic Federated Learning for Neural Networks
+## 28、Personalization Improves Privacy-Accuracy Tradeoffs in Federated Optimization
+## 29、Neural Tangent Kernel Empowered Federated Learning
+## 30、Accelerated Federated Learning with Decoupled Adaptive Optimization
+## 31、Communication-Efficient Adaptive Federated Learning
+## 32、Fishing for User Data in Large-Batch Federated Learning via Gradient Magnification
+## 33、The Poisson Binomial Mechanism for Unbiased Federated Learning with Secure Aggregation
+## 34、ProxSkip: A Simple and Provably Effective Communication-Acceleration Technique for Federated Learning
