@@ -110,10 +110,17 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22cd2-pfed_title.PNG)
 
 #### 文章总结
-个性化 FL方案以解决联邦异质性问题，
+个性化 FL方案以解决联邦数据分布异质性问题，本文提出了一种新颖的循环蒸馏引导的通道解耦框架，与之前建立分层个性化以克服跨客户端的非独立同分布数据的工作不同，本文尝试对模型通道进行个性化分配为私有和共享权重。为了进一步促进私有权重和共享权重之间的协作，本文提出了循环蒸馏在局部和和全局模型表示之间施加一致的正则化。在其指导之下所提出的通道解耦框架可以为不同类型的异质性提供更准确和通用的结果，例如特征偏斜、标签分布偏斜和概念转移。
+网络结构:
+
+![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22cd2-pfed_framework.PNG)
+
 
 ## 4、Closing the Generalization Gap of Cross-Silo Federated Medical Image Segmentation
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22CGG_title.PNG)
+NVIDIA的工作，本文针对FL在医学图像分割任务中遇到客户端漂移问题，提出了FedSM框架生成个性化模型以很好地适应不同的数据分布，并生成一种新颖的模型选择器来为任何测试数据确定最接近的模型/数据分布，而不是找到一个适合所有客户数据分布的全局模型。
+
+
 
 ## 5、Differentially Private Federated Learning With Local Regularization and Sparsification
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22DPFLLRS_title.PNG)
@@ -124,10 +131,14 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 ## 6、FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedCor_title.PNG)
 
+从主动客户端选择思路解决联邦数据异质性问题，相比于统一选择策略只能取得边际改进不同，本文提出FedCor基于相关性的客户选择策略FL框架，具体而言首先使用高斯过程 (GP) 对客户端之间的损失相关性进行建模，基于GP导出客户端选择策略显着降低了每一轮的预期全局损失。
+
+
+
 ## 7、FedCorr: Multi-Stage Federated Learning for Label Noise Correction
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedCorr_title.PNG)
 #### 文章总结
-
+本文针对FL设置下存在的异构标签噪声问题（客户端数据可能具有标签噪声，并且不同的客户端可能具有截然不同的标签噪声水平。）提出了FedCorr多阶段框架通过利用在所有客户端上独立测量的模型预测子空间的维度来动态识别噪声客户端，然后根据每个样本的损失识别噪声客户端上的错误标签。为了处理数据异质性并提高训练稳定性，本文提出了一种基于估计局部噪声水平的自适应局部近端正则化项。全局模型在干净客户端上进一步微调，并为剩余的噪声客户端校正噪声标签。最后在进行全部客户端的联合FL训练以充分利用所有本地数据。
 
 ## 8、FedDC: Federated Learning With Non-IID Data via Local Drift Decoupling and Correction
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedDC_title.PNG)
