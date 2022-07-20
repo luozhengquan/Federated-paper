@@ -199,9 +199,15 @@ NVIDIA的工作，本文针对FL在医学图像分割任务中遇到客户端漂
 ## ICML2022
 ### Oral
 ## 1、Anarchic Federated Learning
+#### 文章总结
+无政府联邦学习，相比于传统的FL模型，AFL中的每个客户端可以自由选择何时参与FL与每一轮中执行的本地优化轮次，为了研究AFL的收敛性和收敛速率，文章提出了在跨设备和跨孤岛两种无政府联邦平均算法。文章表明在温和的无政府主义假设的情况下，这两种AFL算法都达到了传统FL的最先进的收敛率同时保留了非常理想的线性加速效果。
 ## 2、FEDNEST: Federated Bilevel Optimization
+#### 文章总结
+标准联邦优化方法成功应用于解决具有单层结构的随机性问题，但无法解决嵌套的二层优化问题包括adversarial robustness, hyperparameter tuning, actor-critic-fall，本文提出FEDNEST：一种联合交替的随机梯度方法来解决一般的嵌套问题，并证明了存在异质数据情况下的收敛率。FEDNEST引入了联邦超梯度计算和方差减少以解决内部层面的异质性。
 ## 3、The Poisson Binomial Mechanism for Unbiased Federated Learning with Secure Aggregation
-## 4、Federated Reinforcement Learning: Communication-Efficient Algorithms and Convergence Analysis
+#### 文章总结
+## 4、Federated Reinforcement Learning: Linear Speedup Under Markovian Sampling
+#### 文章总结
 
 ### Spotlight
 ## 1、QSFL: A Two-Level Uplink Communication Optimization Framework for Federated Learning
