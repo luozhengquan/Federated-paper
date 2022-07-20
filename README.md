@@ -280,7 +280,7 @@ NVIDIA的工作，本文针对FL在医学图像分割任务中遇到客户端漂
 ## 10、FedInv : Byzantine-robust Federated Learning by Inversing Local Model Updates
 ## 11、FedSoft: Soft Clustered Federated Learning with Proximal Local Updating
 ## 12、Federated Dynamic Sparse Training: Computing Less, Communicating Less, Yet Learning Better
-## 13、FedFR: Joint Optimization Federated Framework for Generic and Personalized Face Recognition
+## 13、FedFR: Joint Optimization Federated Framework for Generic and Personalized Face Recognition 
 ## 14、SplitFed: When Federated Learning Meets Split Learning
 ## 15、Efficient Device Scheduling with Multi-Job Federated Learning
 ## 16、Implicit Gradient Alignment in Distributed and Federated Learning
