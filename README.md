@@ -168,17 +168,19 @@ NVIDIA的工作，本文针对FL在医学图像分割任务中遇到客户端漂
 
 ## 14、ResSFL: A Resistance Transfer Framework for Defending Model Inversion Attack in Split Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22ResSFL_title.PNG)
-本文尝试克服分离式联合学习（SFL）的模型反转（MI）攻击，SFL是一个最新的分布式训练方案，其中多个客户端将中间激活（即特征图），而不是原始数据，发送到一个中心服务器。
-
+本文尝试克服分离式联合学习（SFL）的模型反转（MI）攻击，SFL（splitfed learning）是一个最新的分布式训练方案，网络被分割成客户端部分和服务器部分，其中多个客户端将中间激活（即特征图smashed data）而不是原始数据，发送到中心服务器，经由中心服务器网络前传反传再将对应梯度发回客户端，而FedAvg部分应用于客户端模型聚合。SFL目前框架无法应对训练期间的模型反转攻击，对此本文提出了ResSFL可在训练期间抵抗MI，具体做法通过攻击者感知的训练得出一个抗性特征提取器，并在标准的SFL训练之前使用该提取器初始化客户端模型。这种方法有助于降低由于在客户端对抗性训练中使用强反转模型而产生的计算复杂性，以及在早期训练时代发起的攻击的脆弱性。
 
 ## 15、Rethinking Architecture Design for Tackling Data Heterogeneity in Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RADFL_title.PNG)
+针对FL数据和设备异构性可能导致的灾难性遗忘，本文证明了self-attention-based架构（Transformer）对于分布变化更加稳健同时在缓解灾难性遗忘、加速收敛以及达到并行和串行FL方法的最佳优化方面的优势。
 
 ## 16、Robust Federated Learning With Noisy and Heterogeneous Clients
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RFL_title.PNG)
+这项工作针对客户端存在标签噪声问题，提出了RHFL（稳健的异质联合学习），对于异构模型之间的通信通过利用公共数据直接调整模型的反馈，对于客户端内部标签噪声应用一个稳健的耐噪声损失函数来减少其负面影响。同时设计了一个新颖的客户信心再加权方案，该方案在协作学习阶段自适应地给每个客户标上相应的权重。
 
 ## 17、RSCFed: Random Sampling Consensus Federated Semi-Supervised Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RSCFed_title.PNG)
+联邦半监督学习（FSSL）通过训练完全标记、完全未标记、或部分标记的客户来获得一个全局模型，针对FSSL同样面对的数据非独立同分布问题，本文提出了一种随机抽样共识联合学习RSCFed，由于训练模型在有标签的客户和无标签的客户之间具有较大的偏差，直接汇总局部模型并不合理，具体做法首先通过对客户进行随机子抽样，提炼出几个子共识模型，然后将这些子共识模型汇总到全局模型中，为了进一步提高子共识模型的稳健性本文使用了基于距离加权的模型聚合方法。
 
 
 
