@@ -118,6 +118,7 @@ AutoML+FL应用型工作，FL部分为FedAvg, PerFedAvg, 和pFedMe的应用。
 
 ## 4、Closing the Generalization Gap of Cross-Silo Federated Medical Image Segmentation
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22CGG_title.PNG)
+#### 文章总结
 NVIDIA的工作，本文针对FL在医学图像分割任务中遇到客户端漂移问题，提出了FedSM框架生成个性化模型以很好地适应不同的数据分布，并生成一种新颖的模型选择器来为任何测试数据确定最接近的模型/数据分布，而不是找到一个适合所有客户数据分布的全局模型。
 
 
@@ -130,7 +131,7 @@ NVIDIA的工作，本文针对FL在医学图像分割任务中遇到客户端漂
 
 ## 6、FedCor: Correlation-Based Active Client Selection Strategy for Heterogeneous Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedCor_title.PNG)
-
+#### 文章总结
 从主动客户端选择思路解决联邦数据异质性问题，相比于统一选择策略只能取得边际改进不同，本文提出FedCor基于相关性的客户选择策略FL框架，具体而言首先使用高斯过程 (GP) 对客户端之间的损失相关性进行建模，基于GP导出客户端选择策略显着降低了每一轮的预期全局损失。
 
 
@@ -142,44 +143,54 @@ NVIDIA的工作，本文针对FL在医学图像分割任务中遇到客户端漂
 
 ## 8、FedDC: Federated Learning With Non-IID Data via Local Drift Decoupling and Correction
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FedDC_title.PNG)
+#### 文章总结
 针对FL客户端数据分布异质性问题，提出了具有局部漂移解耦和校正的新型联邦学习算法FedDC，通过引入漂移变量将局部模型和全局模型在训练过程中解耦，减少了局部漂移对全局目标的影响，使模型快速收敛并达到更好的性能。实验结果和分析表明FedDC 在各种图像分类任务上获得了加速收敛和更好的性能。
 
 ## 9、Federated Class-Incremental Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FCIL_title.PNG)
+#### 文章总结
 本文针对FL存在的灾难性遗忘问题，目前大多数FL框架假设整个框架的对象类随着时间的推移是固定的，然而实际场景中局部客户端不断收集的新类并且仅有限的存储旧类，使得全局模型遭受对旧类的灾难性遗忘。为应对这一问题本文开发了一种新的全局-局部遗忘补偿 (GLFC) 模型，以学习一个全局类增量模型，以从局部和全局角度减轻灾难性遗忘。具体而言为了解决由于本地客户端的类不平衡导致的本地遗忘，本文设计了一个类感知梯度补偿损失和一个类语义关系蒸馏损失来平衡旧类的遗忘并提炼跨任务的一致的类间关系。为解决客户端之间数据异质性造成的全局遗忘，本文提出了一个代理服务器，它选择最好的旧的全局模型来辅助局部关系蒸馏。
 
 ## 10、Federated Learning With Position-Aware Neurons
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FLPAN_title.PNG)
+#### 文章总结
 神经网络具备置换不变性，这意味着隐藏的神经元可以在训练过程中错位而不影响局部性能。另一方面，FL跨客户端的样本是非独立同分布的，其进一步加剧了局部训练期间模型神经网络错位并导致基于坐标的参数平均权重发散。为此本文提出位置感知神经元 (PAN)将位置编码融合到神经元输出中并最大限度地减少错位的可能性。PAN 在应用于 FL 时与位置紧密耦合，使跨客户端的参数预先对齐并促进基于坐标的参数平均。
 
 
 ## 11、Fine-Tuning Global Model via Data-Free Knowledge Distillation for Non-IID Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22ftgm_title.PNG)
+#### 文章总结
 针对FL客户端数据异质性问题，本文提出了一种无数据知识提取方法来微调服务器中的全局模型（FedFTG），从而缓解了直接全局模型聚合引起的性能下降。具体来说，服务器在收集本地模型并将它们聚合为初步的全局模型后并不直接广播回每个客户端，而是使用从本地模型中提取的知识在服务器中微调这个初步的全局模型。为此本文开发了一种基于硬样本挖掘的无数据知识蒸馏方法，以有效地探索知识并将其转移到全局模型中。同时考虑到客户标签分布的变化，文章建议定制标签采样和类级集成，以促进更有效的知识利用。
 
 ## 12、Layer-Wised Model Aggregation for Personalized Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22LMAPFL_title.PNG)
+#### 文章总结
 目前大多数个性化联合学习应用加权聚合的方式来生成个性化模型，其中权重是通过校准整个模型参数或损失值的距离来确定的，尚未考虑层级对聚合过程的影响，导致模型收敛滞后和非 IID 数据集的个性化不足。为此，本文提出了pFedLA在服务器端为每个客户采用了一个专用的超网，该网络经过训练可以在层的粒度上识别相互贡献因素。同时，文章引入了一个参数化的机制来更新层化的聚合权重，以逐步利用客户端之间的相似性并实现精确的模型个性化。
 
 
 ## 13、Learn From Others and Be Yourself in Heterogeneous Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22FCCL_title.PNG)
+#### 文章总结
 针对FL数据异质性问题以及局部优化过程可能造成的模型灾难性遗忘问题，本文提出了FCCL联邦互相关和持续学习，利用未标记的公共数据进行通信并构建互相关矩阵来学习域转移下的可概括表示，同时在本地更新中利用知识蒸馏，在不泄露隐私的情况下提供域间和域内信息。
 
 ## 14、ResSFL: A Resistance Transfer Framework for Defending Model Inversion Attack in Split Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22ResSFL_title.PNG)
+#### 文章总结
 本文尝试克服分离式联合学习（SFL）的模型反转（MI）攻击，SFL（splitfed learning）是一个最新的分布式训练方案，网络被分割成客户端部分和服务器部分，其中多个客户端将中间激活（即特征图smashed data）而不是原始数据，发送到中心服务器，经由中心服务器网络前传反传再将对应梯度发回客户端，而FedAvg部分应用于客户端模型聚合。SFL目前框架无法应对训练期间的模型反转攻击，对此本文提出了ResSFL可在训练期间抵抗MI，具体做法通过攻击者感知的训练得出一个抗性特征提取器，并在标准的SFL训练之前使用该提取器初始化客户端模型。这种方法有助于降低由于在客户端对抗性训练中使用强反转模型而产生的计算复杂性，以及在早期训练时代发起的攻击的脆弱性。
 
 ## 15、Rethinking Architecture Design for Tackling Data Heterogeneity in Federated Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RADFL_title.PNG)
+#### 文章总结
 针对FL数据和设备异构性可能导致的灾难性遗忘，本文证明了self-attention-based架构（Transformer）对于分布变化更加稳健同时在缓解灾难性遗忘、加速收敛以及达到并行和串行FL方法的最佳优化方面的优势。
 
 ## 16、Robust Federated Learning With Noisy and Heterogeneous Clients
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RFL_title.PNG)
+#### 文章总结
 这项工作针对客户端存在标签噪声问题，提出了RHFL（稳健的异质联合学习），对于异构模型之间的通信通过利用公共数据直接调整模型的反馈，对于客户端内部标签噪声应用一个稳健的耐噪声损失函数来减少其负面影响。同时设计了一个新颖的客户信心再加权方案，该方案在协作学习阶段自适应地给每个客户标上相应的权重。
 
 ## 17、RSCFed: Random Sampling Consensus Federated Semi-Supervised Learning
 ![](https://github.com/luozhengquan/Federated-paper/blob/main/image/CVPR22RSCFed_title.PNG)
+#### 文章总结
 联邦半监督学习（FSSL）通过训练完全标记、完全未标记、或部分标记的客户来获得一个全局模型，针对FSSL同样面对的数据非独立同分布问题，本文提出了一种随机抽样共识联合学习RSCFed，由于训练模型在有标签的客户和无标签的客户之间具有较大的偏差，直接汇总局部模型并不合理，具体做法首先通过对客户进行随机子抽样，提炼出几个子共识模型，然后将这些子共识模型汇总到全局模型中，为了进一步提高子共识模型的稳健性本文使用了基于距离加权的模型聚合方法。
 
 
